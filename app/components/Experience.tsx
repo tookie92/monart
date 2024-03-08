@@ -10,12 +10,12 @@ function Experience() {
         controls.current.dolly(22, true)
     }
 
-    useEffect(()=>{
-        intro()
-    })
+    // useEffect(()=>{
+    //     intro()
+    // })
   return (
     <>
-        <CameraControls ref={controls}/>
+        {/* <CameraControls ref={controls}/> */}
         <ambientLight intensity={0.5}/>
         <mesh>
             <boxGeometry args={[3,5,2]}/>
