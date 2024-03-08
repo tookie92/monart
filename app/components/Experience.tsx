@@ -1,7 +1,7 @@
 import { CameraControls } from '@react-three/drei'
 import React, { useEffect, useRef } from 'react'
 
-function Experience() {
+function Experience(props:any) {
     const controls = useRef<any>()
 
     const intro = async()=>{
