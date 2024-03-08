@@ -8,12 +8,12 @@ import { ARButton, Controllers, XR } from '@react-three/xr'
 function MonCanvas() {
   return (
     <>
-    <ARButton/>
+        <ARButton/>
         <Canvas camera={{position:[0,0,8]}}>
             <XR referenceSpace='local'>
-            <Controllers/>
+           
                 <color attach={"background"} args={["#171720"]} />
-                <Experience position={[0, 0.1, -0.2]}/>
+                <Experience />
             </XR>
         </Canvas>
     </>
